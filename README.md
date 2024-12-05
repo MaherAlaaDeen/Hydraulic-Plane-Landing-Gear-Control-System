@@ -25,6 +25,8 @@ The hydraulic system includes the following components:
 - Reservoir: Stores hydraulic fluid.
 - Directional Control Valves: Manage the flow of hydraulic fluid.
 
+![Hydraulic Schematic](2.png)
+
 ### PLC Control
 The PLC program includes:
 1. Normal Mode:
@@ -33,5 +35,18 @@ The PLC program includes:
 2. Emergency Mode:
    - Activates via a toggle switch when an failure occurs with the normal mode.
 
+![PLC Ladder Logic](3.png)
+
 ### HMI Design
-  
+The HMI interface displays:
+- Landing Gear Status: Extended, retracted, or in transition.
+- Start, Stop, Extend and Retract Push Buttons.
+- Emergency Stop.
+- Emergency Landing Gear Switch.
+
+![HMI](4.png)
+
+## Schematic and System Design
+
+![System](1.png)
+
