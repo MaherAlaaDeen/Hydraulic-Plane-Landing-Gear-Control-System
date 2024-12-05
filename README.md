@@ -50,3 +50,40 @@ The HMI interface displays:
 
 ![System](1.png)
 
+### Hydraulic Circuit Diagram:
+- The main pump and its associated circuit.
+- Emergency pump with the cutoff valve.
+- Cylinders and directional control valves.
+
+### PLC Ladder Logic Diagram:
+- Input conditions for main and emergency pump activation.
+- Safety interlocks to prevent simultaneous operation of both pumps.
+- Fault detection and signal generation.
+
+## Simulation in Automation Studio
+
+### Extension During Landing:
+
+![Extension](5.png)
+
+### Retraction in Air:
+
+![Retraction](6.png)
+
+### Emergency:
+
+![Emergency](7.png)
+
+## Results
+- The system successfully switched to the emergency pump within the defined response time.
+- Fault alerts were displayed on the HMI during the transition.
+- No loss of hydraulic functionality during the pump switch.
+
+## Conclusion
+The project successfully demonstrates the design and simulation of a dual-pump hydraulic landing gear system, controlled by a PLC and monitored through an HMI. The system's reliability is enhanced by the seamless transition to the emergency pump, ensuring safe operation even under pump failure conditions.
+
+## Future Work
+- Integrate predictive maintenance features using AI to anticipate pump failures.
+- Test the system under more complex scenarios, such as fluctuating loads or extreme weather conditions.
+- Enhance the HMI with additional diagnostic tools and analytics.
+
