@@ -17,3 +17,21 @@ The system is controlled by a PLC and monitored through an HMI, ensuring safe an
 
 ## System Overview
 ### Hydraulic System Design:
+The hydraulic system includes the following components:
+- Main Pump: Handles normal operations of the landing gear.
+- Emergency Pump: Activated when the main pump fails.
+- Cutoff Valve: Switches between the main and emergency pumps.
+- Hydraulic Cylinders: Actuate the landing gear retraction and extension.
+- Reservoir: Stores hydraulic fluid.
+- Directional Control Valves: Manage the flow of hydraulic fluid.
+
+### PLC Control
+The PLC program includes:
+1. Normal Mode:
+   - Operates the main pump and controls the hydraulic cylinders.
+   - Monitors gear position sensors.
+2. Emergency Mode:
+   - Activates via a toggle switch when an failure occurs with the normal mode.
+
+### HMI Design
+  
